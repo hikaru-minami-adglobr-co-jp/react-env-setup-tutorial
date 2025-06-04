@@ -3,7 +3,7 @@ import TextInput from "./TextInput";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
-test("TextInput Component test", async () => {
+test("TextInput Component test Mod", async () => {
   render(<TextInput />);
   const inputElement = screen.getByRole("textbox");
   expect(inputElement).toBeInTheDocument();
