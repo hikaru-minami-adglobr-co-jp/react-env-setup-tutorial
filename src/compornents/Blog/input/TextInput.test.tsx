@@ -9,7 +9,7 @@ test("TextInput Component test", async () => {
   expect(inputElement).toBeInTheDocument();
 });
 
-test("TextInput Event Text", async () => {
+test("TextInput Event Text Mod", async () => {
   const user = userEvent.setup();
   render(<TextInput />);
 
